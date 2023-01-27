@@ -1,3 +1,10 @@
+/* Main Config */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
 /* Header Configuration */
 
 .navbar-dark .navbar-nav .nav-link {
@@ -18,6 +25,20 @@
 .info {
     padding: 60px 0;
 	border-bottom: 1px solid #e5e5e5;
+}
+
+.main {
+    width: 100%;
+}
+
+.display-4 {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.btn-mg {
+    margin-bottom: 10px;
 }
 
 /* Footer Configuration */
